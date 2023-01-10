@@ -1,0 +1,238 @@
+.page1{
+    background-image: url('./assets/back1.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page2header{
+    margin-top: 0em;
+
+}
+
+.foottext{
+    font-size: small;
+}
+a .nav-link{
+    color: white;  
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.city{
+    font-size:5em;
+    color: rgb(77, 77, 77);
+    padding-top: 3.3em;
+}
+.mountains{
+    font-size:5.5em;
+    color: #3E4E6B;
+    margin-bottom: 0;
+    
+}
+
+.page2{
+    background-image: url('./assets/back2.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    
+}
+
+.history{
+    font-size: small;
+    
+}
+.one{
+    font-size: 8em;
+    /* padding-right: 10em; */
+    margin-left: 1em;
+    color: rgb(77, 77, 77);
+    margin-right: 12em;
+}
+.history{
+    font-size: 0.2em;
+    margin-top: 10em;
+    color: #3E4E6B;
+}
+.onetext{
+    margin-left: 10em;
+    margin-right: 10em;
+    color: #3E4E6B;
+}
+
+
+
+.page2text{
+    padding-top: 7em;;
+}
+.rows{
+    background-color: #3E4E6B;
+    opacity: 0.9;
+    margin-top: 30.5em;
+}
+
+.small img{
+    max-width: 100%;
+    
+    
+}
+
+.page3text{
+    padding-top: 2em;
+    display: flex;
+}
+.two{
+    font-size: 8em;
+    /* padding-right: 10em; */
+    margin-left: 1em;
+    color: rgb(77, 77, 77);
+   
+}
+
+.climb{
+    font-size: 0.2em;
+    margin-top: 10em;
+    color: #3E4E6B;
+    margin-right: 0;
+}
+.twotext{
+    margin-top: 6.5em;;
+    margin-left: 2em;
+    margin-right: 6em;
+    color: #3E4E6B;
+}
+.threep{
+    background-color: #3E4E6B;
+}
+
+.threep li a{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: grey;
+}
+.threep li a:hover{
+    background-color: grey;
+    text-decoration: underline;
+    color: #3E4E6B;
+}
+
+.third{
+    background-image: url('./assets/back3.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer{
+    color: white;
+    background-color: #3E4E6B;
+
+}
+
+@media only screen and (max-width: 880px) {
+    .city{
+        font-size: 2em;
+    }
+    .mountains{
+        font-size: 2em;
+    }
+    .small img{
+        max-width: 100%;
+        
+        
+    }
+  }
+
+  @media only screen and (max-width: 880px) {
+    .page1{
+        height: 700px;;
+    }
+    .third{
+        height:700px
+    }
+    .two{
+        font-size:2em;
+    }
+    .climb{
+        font-size: 0.5em;
+    }
+
+    .twotext{
+        font-size: 0.8em;;
+    }
+  }
+
+  @media only screen and (max-width: 444px) {
+    .page1{
+        
+        width:112%;
+        height: 500px;
+    }
+    .page2{
+        
+        width:112%;
+        height: 500px;
+    }
+    .third{
+        
+        width:112%;
+        height: 500px;
+    }
+    .city{
+        font-size: 1em;
+    }
+    .mountains{
+        font-size: 1em;
+    }
+   
+    .two{
+        font-size:1.7em;
+    }
+    .climb{
+        font-size: 0.5em;
+    }
+
+    .twotext{
+        font-size: 0.8em;;
+    }
+    .one{
+        font-size:1.7em;
+    }
+    .history{
+        font-size: 0.5em;
+    }
+    .onetext{
+        font-size: 0.8em;;
+        color: white;
+    }
+    .rows{
+        
+        margin-top: 2.5em;
+    }
+  }
+
+  @media only screen and (max-width: 330px) {
+    .rows{
+        margin-top: 0.01em;;
+    }
+  }
